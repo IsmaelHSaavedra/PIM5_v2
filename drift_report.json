@@ -1,0 +1,271 @@
+{
+  "timestamp": "2026-07-02T00:46:35",
+  "baseline_rows": 8610,
+  "current_rows": 2153,
+  "psi_threshold": 0.25,
+  "ks_threshold": 0.2,
+  "drift_detected": true,
+  "variables_with_drift": [
+    "mes_prestamo",
+    "trimestre_prestamo",
+    "promedio_ingresos_datacredito"
+  ],
+  "metrics": [
+    {
+      "variable": "mes_prestamo",
+      "tipo": "numerica",
+      "psi": 2.578,
+      "ks_statistic": 0.6922,
+      "ks_pvalue": 0.0,
+      "drift_detected": true
+    },
+    {
+      "variable": "trimestre_prestamo",
+      "tipo": "numerica",
+      "psi": 0.7248,
+      "ks_statistic": 0.6922,
+      "ks_pvalue": 0.0,
+      "drift_detected": true
+    },
+    {
+      "variable": "promedio_ingresos_datacredito",
+      "tipo": "numerica",
+      "psi": 0.3216,
+      "ks_statistic": 0.233,
+      "ks_pvalue": 0.0,
+      "drift_detected": true
+    },
+    {
+      "variable": "total_otros_prestamos",
+      "tipo": "numerica",
+      "psi": 0.2221,
+      "ks_statistic": 0.1539,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "plazo_meses",
+      "tipo": "numerica",
+      "psi": 0.1087,
+      "ks_statistic": 0.1584,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "salario_cliente",
+      "tipo": "numerica",
+      "psi": 0.1073,
+      "ks_statistic": 0.0949,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "cuota_sobre_salario",
+      "tipo": "numerica",
+      "psi": 0.0949,
+      "ks_statistic": 0.1271,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "cuota_pactada",
+      "tipo": "numerica",
+      "psi": 0.0723,
+      "ks_statistic": 0.1179,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "capital_sobre_salario",
+      "tipo": "numerica",
+      "psi": 0.063,
+      "ks_statistic": 0.0913,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "capital_prestado",
+      "tipo": "numerica",
+      "psi": 0.0541,
+      "ks_statistic": 0.0889,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "tendencia_ingresos",
+      "tipo": "categorica",
+      "psi": 0.0231,
+      "ks_statistic": NaN,
+      "ks_pvalue": NaN,
+      "drift_detected": false
+    },
+    {
+      "variable": "puntaje",
+      "tipo": "numerica",
+      "psi": 0.0161,
+      "ks_statistic": 0.0623,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "dia_semana_prestamo",
+      "tipo": "numerica",
+      "psi": 0.016,
+      "ks_statistic": 0.0387,
+      "ks_pvalue": 0.0112,
+      "drift_detected": false
+    },
+    {
+      "variable": "edad_cliente",
+      "tipo": "numerica",
+      "psi": 0.0153,
+      "ks_statistic": 0.0494,
+      "ks_pvalue": 0.0004,
+      "drift_detected": false
+    },
+    {
+      "variable": "tipo_credito",
+      "tipo": "categorica",
+      "psi": 0.0124,
+      "ks_statistic": NaN,
+      "ks_pvalue": NaN,
+      "drift_detected": false
+    },
+    {
+      "variable": "puntaje_datacredito",
+      "tipo": "numerica",
+      "psi": 0.0102,
+      "ks_statistic": 0.0266,
+      "ks_pvalue": 0.1717,
+      "drift_detected": false
+    },
+    {
+      "variable": "saldo_total",
+      "tipo": "numerica",
+      "psi": 0.0077,
+      "ks_statistic": 0.013,
+      "ks_pvalue": 0.9329,
+      "drift_detected": false
+    },
+    {
+      "variable": "saldo_sobre_capital",
+      "tipo": "numerica",
+      "psi": 0.0076,
+      "ks_statistic": 0.0324,
+      "ks_pvalue": 0.0548,
+      "drift_detected": false
+    },
+    {
+      "variable": "saldo_principal",
+      "tipo": "numerica",
+      "psi": 0.0063,
+      "ks_statistic": 0.0145,
+      "ks_pvalue": 0.8732,
+      "drift_detected": false
+    },
+    {
+      "variable": "creditos_sectorCooperativo",
+      "tipo": "numerica",
+      "psi": 0.0051,
+      "ks_statistic": 0.0284,
+      "ks_pvalue": 0.1212,
+      "drift_detected": false
+    },
+    {
+      "variable": "cant_creditosvigentes",
+      "tipo": "numerica",
+      "psi": 0.0051,
+      "ks_statistic": 0.0141,
+      "ks_pvalue": 0.8761,
+      "drift_detected": false
+    },
+    {
+      "variable": "tipo_laboral",
+      "tipo": "categorica",
+      "psi": 0.0049,
+      "ks_statistic": NaN,
+      "ks_pvalue": NaN,
+      "drift_detected": false
+    },
+    {
+      "variable": "total_creditos_reportados",
+      "tipo": "numerica",
+      "psi": 0.0045,
+      "ks_statistic": 0.0133,
+      "ks_pvalue": 0.9177,
+      "drift_detected": false
+    },
+    {
+      "variable": "huella_consulta",
+      "tipo": "numerica",
+      "psi": 0.0043,
+      "ks_statistic": 0.0175,
+      "ks_pvalue": 0.6595,
+      "drift_detected": false
+    },
+    {
+      "variable": "creditos_sectorReal",
+      "tipo": "numerica",
+      "psi": 0.0012,
+      "ks_statistic": 0.012,
+      "ks_pvalue": 0.9623,
+      "drift_detected": false
+    },
+    {
+      "variable": "creditos_sectorFinanciero",
+      "tipo": "numerica",
+      "psi": 0.0011,
+      "ks_statistic": 0.0082,
+      "ks_pvalue": 0.9998,
+      "drift_detected": false
+    },
+    {
+      "variable": "saldo_mora_codeudor",
+      "tipo": "numerica",
+      "psi": 0.0,
+      "ks_statistic": 0.0004,
+      "ks_pvalue": 1.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "saldo_mora",
+      "tipo": "numerica",
+      "psi": 0.0,
+      "ks_statistic": 0.0047,
+      "ks_pvalue": 1.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "anio_prestamo",
+      "tipo": "numerica",
+      "psi": 0.0,
+      "ks_statistic": 0.1628,
+      "ks_pvalue": 0.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "mora_sobre_saldo",
+      "tipo": "numerica",
+      "psi": 0.0,
+      "ks_statistic": 0.0051,
+      "ks_pvalue": 1.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "tiene_mora",
+      "tipo": "numerica",
+      "psi": 0.0,
+      "ks_statistic": 0.0046,
+      "ks_pvalue": 1.0,
+      "drift_detected": false
+    },
+    {
+      "variable": "tiene_codeudor_en_mora",
+      "tipo": "numerica",
+      "psi": 0.0,
+      "ks_statistic": 0.0003,
+      "ks_pvalue": 1.0,
+      "drift_detected": false
+    }
+  ]
+}
