@@ -193,6 +193,53 @@ La aplicación se abre localmente en:
 ```txt
 http://localhost:8501
 ```
+## API con FastAPI
+
+El archivo `src/model_deploy.py` disponibiliza el modelo entrenado mediante una API construida con FastAPI.
+
+La API incluye los siguientes endpoints:
+
+```txt
+GET /
+GET /health
+POST /predict
+```
+
+Para ejecutar la API localmente:
+
+```bash
+uvicorn src.model_deploy:app --reload --port 5000
+```
+
+La documentación interactiva se puede consultar en:
+
+```txt
+http://127.0.0.1:5000/docs
+```
+
+## Docker
+
+El proyecto incluye un `Dockerfile` para crear una imagen con la API y sus dependencias.
+
+Construir la imagen:
+
+```bash
+docker build -t pim5-api .
+```
+
+Ejecutar el contenedor:
+
+```bash
+docker run -p 5000:5000 pim5-api
+```
+
+Luego abrir:
+
+```txt
+http://127.0.0.1:5000/docs
+```
+
+El mapeo `5000:5000` conecta el puerto local de la computadora con el puerto interno del contenedor.
 
 ## Versionamiento
 
