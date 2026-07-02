@@ -124,6 +124,8 @@ promedio_ingresos_datacredito
 
 Este resultado indica que algunas variables presentan cambios relevantes entre los datos históricos y recientes, por lo que deben monitorearse antes de usar el modelo en un entorno productivo.
 
+![Monitoreo de data drift en Streamlit](docs/streamlit_drift.png)
+
 ### 6. Aplicación en Streamlit
 
 El archivo `src/streamlit_app.py` implementa una aplicación visual para consultar el modelo y revisar sus resultados.
@@ -136,11 +138,15 @@ La aplicación incluye tres secciones principales:
 
 La app permite ingresar datos de un caso individual, obtener una clasificación de pago a tiempo y visualizar los resultados del monitoreo de drift y del entrenamiento.
 
+![Predicción individual en Streamlit](docs/streamlit_prediccion.png)
+
 ## Resultados principales
 
 Los modelos obtuvieron métricas muy altas. En particular, Decision Tree y Random Forest alcanzaron valores de 1.0000 en varias métricas de prueba.
 
 Esto puede indicar un desempeño elevado del modelo, aunque también se considera importante revisar posible data leakage, ya que algunas variables podrían contener información demasiado cercana al resultado final del pago. Por esta razón, el monitoreo y la revisión de variables se documentan como parte del flujo MLOps.
+
+![Resultados del modelo en Streamlit](docs/streamlit_resultados.png)
 
 ## Instalación
 
@@ -216,6 +222,9 @@ La documentación interactiva se puede consultar en:
 ```txt
 http://127.0.0.1:5000/docs
 ```
+![FastAPI en funcionamiento](docs/fastapi.png)
+
+![Predicción exitosa desde FastAPI](docs/fastapi_predict.png)
 
 ## Docker
 
