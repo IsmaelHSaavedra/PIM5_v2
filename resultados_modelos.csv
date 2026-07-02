@@ -1,0 +1,4 @@
+modelo,cv_accuracy_mean,cv_accuracy_std,cv_f1_mean,cv_f1_std,cv_roc_auc_mean,cv_roc_auc_std,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc
+DecisionTree,1.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+RandomForest,1.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+LogisticRegression,0.99732868757259,0.0008691422501217259,0.9985956135605019,0.0004574308973435289,0.9999991035185105,1.2678162807971772e-06,0.9981421272642824,1.0,0.9980497318381277,0.9990239141044412,0.9999665395168307
